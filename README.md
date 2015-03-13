@@ -8,7 +8,7 @@ If you do not want to load all data into memory before doing the sort and the tw
 
 ## Usage
 
-Precondition, the two input streams should be readable with objectMode set to true and sorted regarding to a compare function.
+Precondition, the two input streams should be readable with objectMode set to true and sorted regarding to the compare function.
 
 ```javascript
 var streamArray = require('stream-array');
@@ -31,7 +31,7 @@ sorted.pipe(concat({encoding: 'object'}, function(array){
 
 ## Streaming objects
 
-If you have a streams of objects/points that have to sorted regarding to euclidean distance.
+If you have a streams of objects/points that have to be sorted regarding to the euclidean distance.
 
 ```javascript
 function euclidean(a, b) { return Math.sqrt(b.x*b.x+b.y*b.y) - Math.sqrt(a.x*a.x+a.y*a.y); }
