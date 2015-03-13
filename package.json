@@ -1,7 +1,7 @@
 {
   "name": "merge-sort-stream",
   "version": "1.0.0",
-  "description": "{{description}}",
+  "description": "Merge sort two input streams to one sorted stream",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,10 +14,22 @@
   "bugs": {
     "url": "https://github.com/e-conomic/merge-sort-stream/issues"
   },
+  "keywords": [
+    "stream",
+    "sort",
+    "merge"
+  ],
   "homepage": "https://github.com/e-conomic/merge-sort-stream",
   "devDependencies": {
     "chai": "^1.10.0",
+    "concat-stream": "^1.4.7",
     "mocha": "^2.1.0",
-    "mocha-jshint": "^0.0.9"
+    "mocha-jshint": "^0.0.9",
+    "pump": "^1.0.0",
+    "stream-array": "^1.0.1"
+  },
+  "dependencies": {
+    "end-of-stream": "^1.1.0",
+    "readable-stream": "^1.0.33"
   }
 }
