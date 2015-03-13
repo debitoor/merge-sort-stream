@@ -2,3 +2,10 @@ language: node_js
 node_js:
  - "0.12"
  - "0.10"
+deploy:
+  provider: npm
+  email: dan@steenbjerg.com
+api_key:
+  secure: RZnL2G+MgJtzMw5aufBaTuooS/y/hE9fcPqiGXMgpBrEJsV5dclBqCbod/Y4RUb/dqIjCt/Oqhq7BuYC0o3mfTW9RNMG+jUCjf3pOClD3UdskRTWKs1FHd20XZANOvXU4tXWcRW53nBWok7ZR+OveyP1SeZAStTNwdN/WsKg37M=
+on:
+  tags: true
