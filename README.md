@@ -4,9 +4,10 @@ Merge sort two input streams to one sorted stream.
 
 	npm install merge-sort-stream
 
+If you do not want to load all data into memory before doing the sort and the two input streams already are sorted then this module might help you.
+
 ## Usage
 
-If you do not want to load all data into memory before doing the sort and the two input streams already are sorted then this module might help you.
 Precondition, the two input streams should be readable with objectMode set to true and sorted regarding to a compare function.
 
 ```javascript
@@ -49,7 +50,7 @@ sorted.pipe(concat({encoding: 'object'}, function(array){
 
 ## Related module
 
-If you are going to sort objects only based on a property, you should consider to use the well proven module [sorted-union-stream](https://www.npmjs.com/package/sorted-union-stream)
+If you are going to sort objects only based on a property, you should consider to use the well proven module [sorted-union-stream](https://www.npmjs.com/package/sorted-union-stream).
 
 
 ## License
