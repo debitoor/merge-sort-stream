@@ -1,4 +1,4 @@
-# merge-sort-stream [![Build Status](https://travis-ci.org/e-conomic/merge-sort-stream.svg?branch=master)](https://travis-ci.org/e-conomic/merge-sort-stream)
+# merge-sort-stream [![Build Status](https://travis-ci.org/e-conomic/merge-sort-stream.svg?branch=master)](https://travis-ci.org/e-conomic/merge-sort-stream) [![Dependency Status](https://david-dm.org/e-conomic/merge-sort-stream.svg)](https://david-dm.org/e-conomic/merge-sort-stream) [![devDependency Status](https://david-dm.org/e-conomic/merge-sort-stream/dev-status.svg)](https://david-dm.org/e-conomic/merge-sort-stream#info=devDependencies)
 
 Merge sort two input streams to one sorted stream.
 
