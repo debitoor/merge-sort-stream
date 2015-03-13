@@ -24,7 +24,7 @@
     "chai": "^1.10.0",
     "concat-stream": "^1.4.7",
     "mocha": "^2.1.0",
-    "mocha-jshint": "^0.0.9",
+    "mocha-jshint": "^1.0.0",
     "pump": "^1.0.0",
     "stream-array": "^1.0.1"
   },
