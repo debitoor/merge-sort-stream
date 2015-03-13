@@ -1,6 +1,6 @@
 {
   "name": "merge-sort-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Merge sort two input streams to one sorted stream",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   ],
   "homepage": "https://github.com/e-conomic/merge-sort-stream",
   "devDependencies": {
-    "chai": "^1.10.0",
+    "chai": "^2.1.1",
     "concat-stream": "^1.4.7",
     "mocha": "^2.1.0",
     "mocha-jshint": "^1.0.0",
