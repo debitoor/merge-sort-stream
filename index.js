@@ -69,8 +69,8 @@ MergeSortStream.prototype.destroy = function(err) {
 	}
 
 	this._destroyed = true;
-	destroy(this._readableA);
-	destroy(this._readableB);
+	destroy(this._sourceA);
+	destroy(this._sourceB);
 
 	if (err) {
 		this.emit('error', err);

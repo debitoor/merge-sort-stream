@@ -1,6 +1,6 @@
 {
   "name": "merge-sort-stream",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Merge sort two input streams to one sorted stream",
   "main": "index.js",
   "scripts": {
